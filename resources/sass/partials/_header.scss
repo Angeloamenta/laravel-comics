@@ -59,6 +59,7 @@
                         display: flex;
                         align-items: center;
                         &:hover,
+                        &:focus,
                         &:active,
                         &.active {
                             color: $BlueColor;

@@ -15,10 +15,10 @@
             <div class="col-cent">
                 <ul class="list-none">
                     <li><a href="">CHARACTERS</a></li>
-                    <li><a class="active" href="{{route('home')}}">COMICS</a></li>
+                    <li><a class="{{ 'comics' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('comics')}}">COMICS</a></li>
                     <li><a href="">MOVIES</a></li>
                     <li><a href="">TV</a></li>
-                    <li><a href="{{route('prova')}}">GAMES</a></li>
+                    <li><a class="{{ 'prova' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('prova')}}">GAMES</a></li>
                     <li><a href="">COLLECTIBLES</a></li>
                     <li><a href="">VIDEOS</a></li>
                     <li><a href="">FANS</a></li>

@@ -20,5 +20,5 @@ Route::get('/', function () {
 
 
 Route::get('/prova', function () {
-    return view('guest.prova');
+    return view('guest.partials.prova');
 })->name('prova');

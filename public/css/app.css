@@ -150,7 +150,7 @@ h1 {
   display: flex;
   align-items: center;
 }
-.header-bottom .container .col-cent ul a:hover, .header-bottom .container .col-cent ul a:active, .header-bottom .container .col-cent ul a.active {
+.header-bottom .container .col-cent ul a:hover, .header-bottom .container .col-cent ul a:focus, .header-bottom .container .col-cent ul a:active, .header-bottom .container .col-cent ul a.active {
   color: #0282F9;
   padding-top: 4px;
   border-bottom: 4px solid #0282F9;
