@@ -5,8 +5,8 @@
 @endsection
 
 @section('content')
-  <main class="products">
-    main
+  <main>
+    <h1>Main</h1>
   </main>
 @endsection
 

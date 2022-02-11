@@ -8,12 +8,10 @@
     <title>@yield('docTitle')</title>
 </head>
 <body>
-    <div class="container">
         @include('guest.partials.header')
     
         @yield('content')
     
         @include('guest.partials.footer')
-      </div>
 </body>
 </html>

@@ -11,8 +11,22 @@ html {
 
 .text-center {
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
-body {
-    background-color: aqua;
+h1 {
+    font-size: 4em;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;  
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+
+.list-none {
+  list-style: none;
 }
