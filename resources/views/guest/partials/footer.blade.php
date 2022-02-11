@@ -1,4 +1,4 @@
-{{-- <footer>
+<footer>
     <div class="footer-top">
           <div class="container">
               <div class="col-top">
@@ -42,11 +42,10 @@
                       <li><a href="">DC Kids</a></li>
                       <li><a href="">DC Universe</a></li>
                       <li><a href="">DC Power Visa</a></li>
-                     
                   </ul>
               </div>
           <div class="img-dc">
-              <img src="../assets/img/dc-logo-bg.png" alt="">
+              <img src="{{asset('/images/dc-logo-bg.png')}}" alt="">
           </div>
           </div>
       </div> 
@@ -57,13 +56,13 @@
           <div class="bottom-dx">
               <h3>FOLLOW US</h3>
               <ul class="list-none">
-                  <li><a href=""><img class="shop" src="../assets/img/footer-facebook.png" alt=""></a></li>
-                  <li><a href=""><img class="shop" src="../assets/img/footer-twitter.png" alt=""></a></li>
-                  <li><a href=""><img class="shop" src="../assets/img/footer-youtube.png" alt=""></a></li>
-                  <li><a href=""><img class="shop" src="../assets/img/footer-pinterest.png" alt=""></a></li>
-                  <li><a href=""><img class="shop" src="../assets/img/footer-periscope.png" alt=""></a></li>
+                  <li><a href=""><img class="shop" src="{{asset('/images/footer-facebook.png')}}" alt=""></a></li>
+                  <li><a href=""><img class="shop" src="{{asset('/images/footer-twitter.png')}}" alt=""></a></li>
+                  <li><a href=""><img class="shop" src="{{asset('/images/footer-youtube.png')}}" alt=""></a></li>
+                  <li><a href=""><img class="shop" src="{{asset('/images/footer-pinterest.png')}}" alt=""></a></li>
+                  <li><a href=""><img class="shop" src="{{asset('/images/footer-periscope.png')}}" alt=""></a></li>
               </ul>
           </div>
           </div>
       </div>
-</footer> --}}
+</footer>

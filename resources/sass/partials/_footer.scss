@@ -1,0 +1,90 @@
+@import "partials/variables";
+.footer-top {
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    .container {
+        display: flex;
+        
+       .img-dc {
+           width: 75%;
+           display: flex;
+           justify-content: end;
+           align-items: center;
+           position: relative;
+           img {
+               position: absolute;
+                        top: -115 ;
+           }
+       }
+        .col-top {
+            width: 15%;
+            margin: 20px 0;
+            ul li {
+                margin-top: 10px;
+                a {
+                        text-decoration: none;
+                        color: gray;
+                        font-size: 0.8em;
+                        &:hover{
+                            color: white;
+                            
+                        }
+                    }
+            }
+            .shop {
+                margin-top: 15px;
+            }
+            
+        }
+    }
+}
+.footer-bottom {
+    background-color: #222222;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+
+        .bottom-sx {
+            button {
+                color: white;
+                border: 2px solid $BlueColor;
+                padding: 1em;
+                background-color: transparent;
+                &:hover{
+                        background: white;
+                        color: $GrayColor;  
+                        }
+                
+            }
+        }
+
+        .bottom-dx {
+            display: flex;
+            align-items: center;
+
+            h3 {
+                color: $BlueColor;
+            }
+            ul {
+                display: flex;
+                li {
+                    margin-left: 10px;
+                    a img {
+                        width: 80%;
+                        &:hover{
+                            background: white;
+                            border-radius: 100%;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}
