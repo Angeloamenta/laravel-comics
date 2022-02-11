@@ -10,8 +10,6 @@
 <body>
         @include('guest.partials.header')
 
-        {{-- @include('guest.partials.jumbotron') rimosso perchè non registrato --}}
-
         @yield('content')
     
         @include('guest.partials.footer')

@@ -96,7 +96,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("../../img/jumbotron.jpg");
+    background-image: url("../images/jumbotron.jpg");
+   
+    // /background-image: url("{{ URL::asset('assets/images/jumbotron.jpg }}");
     background-position: top;
     .container {
         height: 100%;
