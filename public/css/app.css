@@ -108,3 +108,24 @@ h1 {
   border: none;
   width: 95%;
 }
+
+.jumbotron {
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../img/jumbotron.jpg");
+  background-position: top;
+}
+.jumbotron .container {
+  height: 100%;
+  position: relative;
+}
+.jumbotron .container .current {
+  position: absolute;
+  bottom: -20px;
+  left: -40px;
+  background-color: #0282F9;
+  padding: 10px;
+}
