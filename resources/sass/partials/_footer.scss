@@ -5,39 +5,56 @@
     width: 100%;
     color: white;
     overflow: hidden;
+    padding: 30px 0;
     .container {
         display: flex;
-        
-       .img-dc {
-           width: 75%;
-           display: flex;
-           justify-content: end;
-           align-items: center;
-           position: relative;
-           img {
-               position: absolute;
-                        top: -115 ;
-           }
-       }
-        .col-top {
-            width: 15%;
-            margin: 20px 0;
-            ul li {
-                margin-top: 10px;
-                a {
-                        text-decoration: none;
-                        color: gray;
-                        font-size: 0.8em;
-                        &:hover{
-                            color: white;
-                            
+        .footer-sx-top {
+            width: 70%;
+            display: flex;
+
+            .col-top {
+                width: 15%;
+                margin: 20px 0;
+                ul li {
+                    margin-top: 10px;
+                    a {
+                            text-decoration: none;
+                            color: gray;
+                            font-size: 0.8em;
+                            &:hover{
+                                color: white;
+                                
+                            }
                         }
-                    }
+                }
+                .shop {
+                    margin-top: 15px;
+                }
+                
             }
-            .shop {
-                margin-top: 15px;
+        }
+        .footer-dx-top {
+            width: 30%;
+            display: flex;
+        }
+        .img-dc {
+            width: 75%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            position: relative;
+            img {
+                position: absolute;
+                         top: -115 ;
             }
-            
+        }
+         
+    }
+    .container-bottom-footer {
+        font-size: .8em;
+        color: gray;
+        a {
+            color: $BlueColor;
         }
     }
 }
