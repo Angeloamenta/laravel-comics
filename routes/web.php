@@ -20,5 +20,6 @@ Route::get('/', function () {
 
 
 Route::get('/prova', function () {
-    return view('guest.partials.prova');
+    $data = ['comics' => config('comics')];
+    return view('guest.partials.prova', $data);
 })->name('prova');
