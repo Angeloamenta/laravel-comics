@@ -2,8 +2,8 @@
     <div class="header-top">
         <div class="container">
             <ul>
-                <li><a href="">DC POWER VISA</a></li>
-                <li><a href="">ADDITIONAL DC SITES</a></li>
+                <li><a href="">DC POWER&trade; VISA&reg;</a></li>
+                <li><a href="">ADDITIONAL DC SITES</a><i class="fa-solid fa-caret-down"></i></li>
             </ul>
         </div>
     </div>
@@ -23,12 +23,12 @@
                     <li><a href="">VIDEOS</a></li>
                     <li><a href="">FANS</a></li>
                     <li><a href="">NEWS</a></li>
-                    <li><a href="">SHOP</a></li>
+                    <li><a href="">SHOP</a><i class="fa-solid fa-sort-down"></i></li>
                 </ul>
             </div>
             <div class="col-dx">
                 <div class="input">
-                 <input type="text" placeholder="Search">0
+                 <input type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>

@@ -11,12 +11,18 @@
             display: flex;
 
             li{
+                display: flex;
+                align-items: center;
+                color: white;
                 a {
                     font-size: 0.6em;
                     text-decoration: none;
-                    color: white;
                     font-weight: bold;
                     margin-left: 15px;
+                    margin-right: 5px;
+                    color: white;
+
+                    
                 }
             }
         }
@@ -51,7 +57,8 @@
                     display: flex;
                     align-items: center;
                     margin-left: 15px;
-                    }a {
+                    
+                    a {
                         color: black;
                         display: block;
                         height: 100%;
@@ -68,6 +75,15 @@
                             }
                         }
                     
+                    .fa-sort-down {
+                        position: relative;
+                        top: -4px;
+                        margin-left: 3px;
+                        color: $BlueColor;
+
+                    }
+                }
+                    
                 }
         }
         .col-dx {
@@ -79,12 +95,16 @@
             .input {
                 width: 100%;
                 display: flex;
-                border-bottom: 1px solid $BlueColor;
+                border-bottom: 2px solid $BlueColor;
                 input {
-                    background-color: none;
+                    outline: none;
                     border: none;
                     width: 95%;
-    
+                    text-align: end;
+                    margin-right: 6px;
+                    font-weight: bolder;
+                    
+                    
                 }
             }
         }

@@ -6,6 +6,7 @@
 
 html {
   font-size: 100%;
+  font-family: "Lato", sans-serif;
 }
 
 .text-center {
@@ -60,6 +61,18 @@ h1 {
   text-transform: uppercase;
   margin-top: 10px;
 }
+.main-top .button-main {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+}
+.main-top .button-main button {
+  background-color: #0282F9;
+  padding: 1em 5em;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
 
 .main-bottom {
   background-color: #0282F9;
@@ -85,13 +98,13 @@ h1 {
 .main-bottom .container ul li img {
   width: 50px;
 }
-.main-bottom .container ul li.shop {
-  width: 35px;
-}
 .main-bottom .container ul li p {
   color: white;
   font-size: 1.1em;
   margin-left: 8px;
+}
+.main-bottom .container ul li .shop {
+  width: 30px;
 }
 
 .header-top {
@@ -107,12 +120,18 @@ h1 {
   list-style: none;
   display: flex;
 }
+.header-top .container ul li {
+  display: flex;
+  align-items: center;
+  color: white;
+}
 .header-top .container ul li a {
   font-size: 0.6em;
   text-decoration: none;
-  color: white;
   font-weight: bold;
   margin-left: 15px;
+  margin-right: 5px;
+  color: white;
 }
 
 .header-bottom .container {
@@ -142,7 +161,7 @@ h1 {
   align-items: center;
   margin-left: 15px;
 }
-.header-bottom .container .col-cent ul a {
+.header-bottom .container .col-cent ul li a {
   color: black;
   display: block;
   height: 100%;
@@ -150,10 +169,16 @@ h1 {
   display: flex;
   align-items: center;
 }
-.header-bottom .container .col-cent ul a:hover, .header-bottom .container .col-cent ul a:focus, .header-bottom .container .col-cent ul a:active, .header-bottom .container .col-cent ul a.active {
+.header-bottom .container .col-cent ul li a:hover, .header-bottom .container .col-cent ul li a:focus, .header-bottom .container .col-cent ul li a:active, .header-bottom .container .col-cent ul li a.active {
   color: #0282F9;
   padding-top: 4px;
   border-bottom: 4px solid #0282F9;
+}
+.header-bottom .container .col-cent ul li .fa-sort-down {
+  position: relative;
+  top: -4px;
+  margin-left: 3px;
+  color: #0282F9;
 }
 .header-bottom .container .col-dx {
   width: 10%;
@@ -165,12 +190,15 @@ h1 {
 .header-bottom .container .col-dx .input {
   width: 100%;
   display: flex;
-  border-bottom: 1px solid #0282F9;
+  border-bottom: 2px solid #0282F9;
 }
 .header-bottom .container .col-dx .input input {
-  background-color: none;
+  outline: none;
   border: none;
   width: 95%;
+  text-align: end;
+  margin-right: 6px;
+  font-weight: bolder;
 }
 
 .jumbotron {
