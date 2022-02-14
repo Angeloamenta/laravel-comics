@@ -21,50 +21,54 @@
     .container-60 {
         width: 60%;
         margin: 0 auto;
-        .description-title {
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
+        
         .desc-container {
             display: flex;
-            .description {
+            .desc-box {
                 width: 70%;
-                .price-available {
-                    display: flex;
+                .description-title {
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                }
+                .description {
                     width: 100%;
-                    height: 50px;
-                    background-color: #55BA59;
-                    .available {
-                        width: 80%;
-                        height: 100%;
+                    .price-available {
                         display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        padding: 0 20px;
-                        border-right: 1px solid black;
-                        color: white;
-                        font-weight: bold;
-                        div {
-                            .green-t {
-                                color: #8CF69C;
-                                font-weight: bold;
+                        width: 100%;
+                        height: 50px;
+                        background-color: #55BA59;
+                        .available {
+                            width: 80%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 20px;
+                            border-right: 1px solid black;
+                            color: white;
+                            font-weight: bold;
+                            div {
+                                .green-t {
+                                    color: #8CF69C;
+                                    font-weight: bold;
+                                }
                             }
                         }
+                        .check {
+                            width: 20%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            font-weight: bold;
+                        }
+    
                     }
-                    .check {
-                        width: 20%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: white;
-                        font-weight: bold;
+                    .inner-description{
+                        margin-top: 10px;
+                        line-height: 25px;
+                        color: gray;
                     }
-
-                }
-                .inner-description{
-                    margin-top: 10px;
-                    line-height: 25px;
-                    color: gray;
                 }
             }
 
@@ -72,6 +76,7 @@
                 width: 30%;
                 text-align: end;
                 color: gray;
+                font-size: 0.8em;
                 .adv-img{
                     width: 100%;
                     img {

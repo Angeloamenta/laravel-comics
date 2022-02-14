@@ -15,30 +15,31 @@
 </div>
   <div class="comics-one-top">
       <div class="container-60">
-          <div class="description-title">
-              <h2>{{$product['title']}}</h2>
-          </div>
           <div class="desc-container">
-              <div class="description">
-                  {{-- riga verde --}}
-                  <div class="price-available">
-                      <div class="available">
-                          <div>
-                              <span class="green-t">U.S Price:</span> {{$product['price']}}
-                          </div>
-                          <div>
-                              <span class="green-t">
-                                  AVAILABLE
-                              </span>
-                          </div>
-                      </div>
-                      <div class="check">
-                        Check Availability>
-                      </div>
+              <div class="desc-box">
+                  <div class="description-title">
+                      <h2>{{$product['title']}}</h2>
                   </div>
-                  {{-- descrizione --}}
-                  <div class="inner-description">
-                      {{$product['description']}}
+                  <div class="description">
+                      <div class="price-available">
+                          <div class="available">
+                              <div>
+                                  <span class="green-t">U.S Price:</span> {{$product['price']}}
+                              </div>
+                              <div>
+                                  <span class="green-t">
+                                      AVAILABLE
+                                  </span>
+                              </div>
+                          </div>
+                          <div class="check">
+                            Check Availability<i class="fa-solid fa-caret-down"></i>
+                          </div>
+                      </div>
+                      {{-- descrizione --}}
+                      <div class="inner-description">
+                          {{$product['description']}}
+                      </div>
                   </div>
               </div>
               <div class="advertisement">
