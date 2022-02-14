@@ -1,0 +1,46 @@
+.blue-line {
+    width: 100%;
+    height: 50px;
+    background-color: #0282F9;
+    position: relative;
+    top: -22px;
+    .container-blue {
+        width: 80%;
+        margin:0 auto;
+        position: relative;
+        img {
+            position: absolute;
+            bottom: -35px;
+        }
+    }
+}
+.comics-one-top {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    .container {
+
+        .desc-container {
+            display: flex;
+            .description {
+                width: 70%;
+                .price-available {
+                    display: flex;
+                    width: 100%;
+                    height: 50px;
+                    background-color: #55BA59;
+                }
+            }
+
+            .advertisement {
+                width: 30%;
+            }
+        }
+    }
+}
+
+.comics-one-bottom {
+    width: 100%;
+    height: 600px;
+    background-color: #F6F6F6;
+}

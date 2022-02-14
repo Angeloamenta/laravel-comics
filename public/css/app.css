@@ -107,6 +107,50 @@ h1 {
   width: 30px;
 }
 
+.blue-line {
+  width: 100%;
+  height: 50px;
+  background-color: #0282F9;
+  position: relative;
+  top: -22px;
+}
+.blue-line .container-blue {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.blue-line .container-blue img {
+  position: absolute;
+  bottom: -35px;
+}
+
+.comics-one-top {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+.comics-one-top .container .desc-container {
+  display: flex;
+}
+.comics-one-top .container .desc-container .description {
+  width: 70%;
+}
+.comics-one-top .container .desc-container .description .price-available {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #55BA59;
+}
+.comics-one-top .container .desc-container .advertisement {
+  width: 30%;
+}
+
+.comics-one-bottom {
+  width: 100%;
+  height: 600px;
+  background-color: #F6F6F6;
+}
+
 .header-top {
   background-color: #0282F9;
   width: 100%;
