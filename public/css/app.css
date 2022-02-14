@@ -115,7 +115,7 @@ h1 {
   top: -22px;
 }
 .blue-line .container-blue {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
 }
@@ -126,29 +126,178 @@ h1 {
 
 .comics-one-top {
   width: 100%;
-  height: 600px;
+  padding-top: 30px;
   background-color: white;
 }
-.comics-one-top .container .desc-container {
+.comics-one-top .container-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+.comics-one-top .container-60 .description-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.comics-one-top .container-60 .desc-container {
   display: flex;
 }
-.comics-one-top .container .desc-container .description {
+.comics-one-top .container-60 .desc-container .description {
   width: 70%;
 }
-.comics-one-top .container .desc-container .description .price-available {
+.comics-one-top .container-60 .desc-container .description .price-available {
   display: flex;
   width: 100%;
   height: 50px;
   background-color: #55BA59;
 }
-.comics-one-top .container .desc-container .advertisement {
+.comics-one-top .container-60 .desc-container .description .price-available .available {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-right: 1px solid black;
+  color: white;
+  font-weight: bold;
+}
+.comics-one-top .container-60 .desc-container .description .price-available .available div .green-t {
+  color: #8CF69C;
+  font-weight: bold;
+}
+.comics-one-top .container-60 .desc-container .description .price-available .check {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.comics-one-top .container-60 .desc-container .description .inner-description {
+  margin-top: 10px;
+  line-height: 25px;
+  color: gray;
+}
+.comics-one-top .container-60 .desc-container .advertisement {
   width: 30%;
+  text-align: end;
+  color: gray;
+}
+.comics-one-top .container-60 .desc-container .advertisement .adv-img {
+  width: 100%;
+}
+.comics-one-top .container-60 .desc-container .advertisement .adv-img img {
+  width: 70%;
 }
 
 .comics-one-bottom {
   width: 100%;
-  height: 600px;
+  padding-top: 30px;
   background-color: #F6F6F6;
+}
+.comics-one-bottom .container-60 {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+.comics-one-bottom .container-60 .comics-bottom-sx {
+  width: 50%;
+  padding: 10px;
+}
+.comics-one-bottom .container-60 .comics-bottom-sx .comics-title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px lightgray solid;
+}
+.comics-one-bottom .container-60 .comics-bottom-sx .art {
+  width: 100%;
+  border-bottom: 1px lightgray solid;
+  display: flex;
+  padding: 8px 0;
+}
+.comics-one-bottom .container-60 .comics-bottom-sx .art .artby,
+.comics-one-bottom .container-60 .comics-bottom-sx .art .writtenby {
+  width: 20%;
+  color: gray;
+}
+.comics-one-bottom .container-60 .comics-bottom-sx .art .artby-dx,
+.comics-one-bottom .container-60 .comics-bottom-sx .art .writtenby-dx {
+  width: 80%;
+}
+.comics-one-bottom .container-60 .comics-bottom-dx {
+  width: 50%;
+  padding: 10px;
+}
+.comics-one-bottom .container-60 .comics-bottom-dx .comics-title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px lightgray solid;
+}
+.comics-one-bottom .container-60 .comics-bottom-dx .specs-tab {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px lightgray solid;
+  color: gray;
+}
+.comics-one-bottom .container-60 .comics-bottom-dx .specs-tab .specs-sx {
+  width: 20%;
+}
+.comics-one-bottom .product-bottom {
+  border-top: 1px solid lightgray;
+  margin-top: 150px;
+  height: 50px;
+}
+.comics-one-bottom .product-bottom .container-60 {
+  height: 100%;
+}
+.comics-one-bottom .product-bottom .container-60 .card {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.comics-one-bottom .product-bottom .container-60 .card .card-title {
+  width: 80%;
+  color: gray;
+  font-size: 0.7em;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.comics-one-bottom .product-bottom .container-60 .card .card-img {
+  width: 20%;
+  height: 100%;
+}
+.comics-one-bottom .product-bottom .container-60 .card .card-img .img1 {
+  width: 46px;
+  height: 44px;
+  background-image: url("../images/cta-icons.png");
+  background-repeat: no-repeat;
+  background-position: 9px 7px;
+}
+.comics-one-bottom .product-bottom .container-60 .card .card-img .img2 {
+  width: 46px;
+  height: 44px;
+  background-image: url("../images/cta-icons.png");
+  background-repeat: no-repeat;
+  background-position: -104px 7px;
+}
+.comics-one-bottom .product-bottom .container-60 .card .card-img .img3 {
+  width: 35px;
+  height: 44px;
+  background-image: url("../images/cta-icons.png");
+  background-repeat: no-repeat;
+  background-position: -74px 7px;
+}
+.comics-one-bottom .product-bottom .container-60 .card .card-img .img4 {
+  width: 46px;
+  height: 44px;
+  background-image: url("../images/cta-icons.png");
+  background-repeat: no-repeat;
+  background-position: -33px 7px;
 }
 
 .header-top {

@@ -5,7 +5,7 @@
     position: relative;
     top: -22px;
     .container-blue {
-        width: 80%;
+        width: 60%;
         margin:0 auto;
         position: relative;
         img {
@@ -16,10 +16,15 @@
 }
 .comics-one-top {
     width: 100%;
-    height: 600px;
+    padding-top: 30px;
     background-color: white;
-    .container {
-
+    .container-60 {
+        width: 60%;
+        margin: 0 auto;
+        .description-title {
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
         .desc-container {
             display: flex;
             .description {
@@ -29,11 +34,50 @@
                     width: 100%;
                     height: 50px;
                     background-color: #55BA59;
+                    .available {
+                        width: 80%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0 20px;
+                        border-right: 1px solid black;
+                        color: white;
+                        font-weight: bold;
+                        div {
+                            .green-t {
+                                color: #8CF69C;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .check {
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        font-weight: bold;
+                    }
+
+                }
+                .inner-description{
+                    margin-top: 10px;
+                    line-height: 25px;
+                    color: gray;
                 }
             }
 
             .advertisement {
                 width: 30%;
+                text-align: end;
+                color: gray;
+                .adv-img{
+                    width: 100%;
+                    img {
+                        width: 70%;
+                    }
+                }
             }
         }
     }
@@ -41,6 +85,118 @@
 
 .comics-one-bottom {
     width: 100%;
-    height: 600px;
+    padding-top: 30px;
     background-color: #F6F6F6;
+    .container-60 {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        .comics-bottom-sx {
+            width: 50%;
+            padding: 10px;
+            .comics-title {
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                border-bottom: 1px lightgray solid;
+            }
+            .art {
+                width: 100%;
+                border-bottom: 1px lightgray solid;
+                display: flex;
+                padding: 8px 0;
+
+                .artby,
+                .writtenby{
+                    width: 20%;
+                    color: gray;
+                }
+
+                .artby-dx,
+                .writtenby-dx{
+                    width: 80%;
+                    
+                }
+
+            }
+        }
+        .comics-bottom-dx{
+            width: 50%;
+            padding: 10px;
+            .comics-title {
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                border-bottom: 1px lightgray solid;
+            }
+            .specs-tab {
+                display: flex;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                border-bottom: 1px lightgray solid;
+                color: gray;
+                .specs-sx {
+                    width: 20%;
+                }
+
+            }
+        }
+    }
+    .product-bottom {
+        border-top: 1px solid lightgray;
+        margin-top: 150px;
+        height: 50px;
+        .container-60 {
+            height: 100%;
+            .card{
+                display: flex;
+                width: calc(100% / 4);
+                height: 100%;
+                border-left: 1px solid lightgray;
+                border-right: 1px solid lightgray;
+                .card-title{
+                    width: 80%;
+                    color: gray;
+                    font-size: .7em;
+                    padding-left: 5px;
+                    padding-top: 5px;
+                }
+                .card-img {
+                    width: 20%;
+                    height: 100%;
+
+                    .img1{
+                        width: 46px;
+                        height: 44px;
+                        background-image: url("../images/cta-icons.png");
+                        background-repeat: no-repeat;
+                        background-position: 9px 7px;
+                    }
+                    .img2{
+                        width: 46px;
+                        height: 44px;
+                        background-image: url("../images/cta-icons.png");
+                        background-repeat: no-repeat;
+                        background-position: -104px 7px;
+                    }
+                    .img3{
+                        width: 35px;
+                        height: 44px;
+                        background-image: url("../images/cta-icons.png");
+                        background-repeat: no-repeat;
+                        background-position: -74px 7px;
+                    }
+                    .img4{
+                        width: 46px;
+                        height: 44px;
+                        background-image: url("../images/cta-icons.png");
+                        background-repeat: no-repeat;
+                        background-position: -33px 7px;
+                    }
+                    
+                }
+            }
+        }
+    }
 }
